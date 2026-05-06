@@ -56,7 +56,7 @@ document.addEventListener("visibilitychange", function () {
 });
 
 // COUNTDOWN WAKTU
-const targetDate = new Date("June 7, 2026 07:00:00").getTime();
+const targetDate = new Date("May 20, 2026 07:00:00").getTime();
 const countdownInterval = setInterval(() => {
     const now = new Date().getTime();
     const distance = targetDate - now;

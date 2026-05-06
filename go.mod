@@ -1,4 +1,4 @@
-module github.com/muhprio68/undangan-nikahPriYo
+module github.com/ricoreynaldo/undangan-azmi
 
 go 1.25.7
 
