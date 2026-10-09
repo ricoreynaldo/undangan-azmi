@@ -626,6 +626,24 @@ hr.divider-vintage {
     font-weight: bold;
 }
 
+.wa-contact {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 10px;
+    font-size: 0.75rem;
+    letter-spacing: 1px;
+    color: #888;
+    text-decoration: none;
+    position: relative;
+    z-index: 1000;
+    transition: color 0.2s ease;
+}
+
+.wa-contact:hover {
+    color: #25D366;
+}
+
 @media (max-width: 768px) {
     .music-control {
         width: 40px;
